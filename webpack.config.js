@@ -1,6 +1,7 @@
 var webpack = require('webpack');
 
 module.exports = {
+	// entry - set order of loading files
 	entry: [
 		'script!jquery/dist/jquery.min.js',
 		'script!foundation-sites/dist/foundation.min.js',
